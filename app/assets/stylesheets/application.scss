@@ -1493,14 +1493,6 @@ object {
     padding: 0;
 }
 
-#quick-contact li::before {
-    color:#ffab1f;
-    content: "";
-    display: inline-block;
-    font-family: FontAwesome;
-    margin-right: 5px;
-    font-size: 17px;
-}
 
 .top-news-title::before {
     color: #ffab1f;
@@ -1533,13 +1525,7 @@ object {
     float: left;
 }
 
-#quick-contact li.quick-call::before {
-    content: "\f095";
-}
 
-#quick-contact li.quick-email::before {
-    content: "\f0e0";
-}
 
 #quick-contact > ul {
     margin: 0;
@@ -4492,4 +4478,10 @@ div.wpcf7 .wpcf7-submit:disabled {
 .wpcf7 input[type="email"],
 .wpcf7 input[type="tel"] {
 	direction: ltr;
+}
+img.wp-image-108 {
+    margin-bottom: 18px;
+}
+.fas {
+    color: #f4a024;
 }
