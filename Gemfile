@@ -26,7 +26,7 @@ gem 'jbuilder', '~> 2.7'
 gem 'mongoid', '~> 7.0.5'
 gem 'kaminari-mongoid', '~> 0.1.0'
 gem 'rails_admin', '~> 2.2', '>= 2.2.1'
-
+gem 'jquery-rails'
 # Reduces boot times through caching; required in config/boot.rb
 gem 'bootsnap', '>= 1.4.4', require: false
 
