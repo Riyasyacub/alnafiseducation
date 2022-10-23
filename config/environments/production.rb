@@ -30,6 +30,9 @@ Rails.application.configure do
   config.public_file_server.enabled = true
   config.serve_static_files = true
 
+  # Compress CSS using a preprocessor.
+  config.assets.css_compressor = nil
+
   # Do not fallback to assets pipeline if a precompiled asset is missed.
   config.assets.compile = true
 
